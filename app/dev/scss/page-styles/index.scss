@@ -239,9 +239,12 @@
 }
 
 .notification {
-    .section_list {
-        flex-direction: column;
-        align-items: flex-start;
+    &_slider-item_content {
+        min-height: 50px;
+        img {
+            height: 30px;
+            margin-right: 10px;
+        }
     }
 }
 
