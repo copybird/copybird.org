@@ -1,0 +1,37 @@
+{
+    "paths": {
+        "root": "app"
+    },
+    "questions": [
+        {
+            "type": "list",
+            "name": "TemplateType",
+            "message": "Select template",
+            "choices": ["html", "pug", "twig"]
+        },
+        {
+            "type": "list",
+            "name": "StylesType",
+            "message": "Select styles",
+            "choices": ["scss", "sass", "less"]
+        },
+        {
+            "type": "list",
+            "name": "ScriptsType",
+            "message": "Select sctipts",
+            "choices": ["js", "coffee"]
+        },
+        {
+            "type": "list",
+            "name": "GridType",
+            "message": "Select grid system",
+            "choices": ["Nothing", "bootstrap4", "smart-grid"]
+        },
+        {
+            "type": "list",
+            "name": "Multilang",
+            "message": "Will the site be multilingual?",
+            "choices": ["No", "Yes"]
+        }
+    ]
+}

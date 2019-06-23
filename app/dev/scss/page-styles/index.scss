@@ -1,0 +1,107 @@
+@import "../vars";
+// @import "../grid"; // uncomment if using grid
+
+/////////////////////////Custom Style////////////////////////
+.main-header {
+    padding: 100px 0;
+    background-color: $accent-color;
+
+    h1 {
+        color: $text-color--white;
+        font-size: 44px;
+    }
+
+    p {
+        color: $text-color--white;
+        margin-left: 83px;
+        font-size: 22px;
+    }
+
+    &_title {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 70px;
+            width: auto;
+            margin-right: 10px;
+            opacity: .6;
+        }
+    }
+
+    ul {
+        display: none;
+        margin-left: 65px;
+
+        li {
+            color: $text-color--white;
+        }
+    }
+
+    &_steps {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+
+        &-step {
+            margin-right: 70px;
+
+            img {
+                width: 60px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.databases {
+    &_list {
+        display: flex;
+        justify-content: space-around;
+
+        &-item {
+            img {
+                width: 100px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.compress {
+    &_list {
+        display: flex;
+        justify-content: space-around;
+
+        &-item {
+            img {
+                width: 100px;
+                height: auto;
+            }
+
+            h3 {
+                font-size: 48px;
+            }
+        }
+    }
+}
+
+.encription {
+    &_list {
+        display: flex;
+        justify-content: space-around;
+
+        &-item {
+            h3 {
+                font-size: 48px;
+            }
+        }
+    }
+}
+///////////////////////////END custom style//////////////////
+
+@import "../media"; // Always at the end

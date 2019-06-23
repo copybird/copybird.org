@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Combine</title>
+    <meta content="Denisoed" name="author"/>
+    <meta content="Start template" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"/>
+    <meta name="theme-color" content="#000"/>
+    <meta name="msapplication-navbutton-color" content="#000"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000"/>
+    <style>@@include('css/critical/index_critical.min.css');</style><!--<Deject>-->
+    <link rel="stylesheet" href="css/critical/index_critical.min.css"/><!--</Deject>-->
+    <meta property="og:url" content="https://site.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Title">
+    <meta property="og:description" content="Description">
+    <meta property="og:image" content="https://site.com/img/path/..">
+  </head>
+  <body>
+
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header_title">
+          <img src="img/database.svg" alt="Copybird">
+          <h1>Copybird</h1>
+        </div>
+        <p>Copybird is open-source cloud-native universal backup tool for databases and files.</p>
+        <div class="main-header_steps">
+          <div class="main-header_steps-step">
+            <img src="img/database.svg" alt="Step1">
+          </div>
+          <div class="main-header_steps-step">
+            <img src="img/compress.svg" alt="Step2">
+          </div>
+          <div class="main-header_steps-step">
+            <img src="img/encrypt.svg" alt="Step3">
+          </div>
+          <div class="main-header_steps-step">
+            <img src="img/output.svg" alt="Step4">
+          </div>
+          <div class="main-header_steps-step">
+            <img src="img/notifications.svg" alt="Step5">
+          </div>
+        </div>
+        <ul>
+          <li>1. Create database backup</li>
+          <li>2. Compress backup file</li>
+          <li>3. Encrypt backup file</li>
+          <li>4. Send it to various destinations fast and secure</li>
+          <li>5. Get notification about backup status in messagers and notification services</li>
+          <li>6. Enjoy simple backup as a service with k8s backup controller</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="databases">
+        <div class="container">
+          <h2>Select Database</h2>
+          <p>Currently Copybird supports the following databases:</p>
+          <div class="databases_list">
+            <div class="databases_list-item">
+              <img src="img/postgresql.svg" alt="Postgres">
+            </div>
+            <div class="databases_list-item">
+              <img src="img/mysql.svg" alt="Mysql">
+            </div>
+            <div class="databases_list-item">
+              <img src="img/Mongodb.svg" alt="MongoDB">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="compress">
+        <div class="container">
+          <h2>Compression</h2>
+          <p>Copybird compresses with the following tools:</p>
+          <div class="compress_list">
+            <div class="compress_list-item">
+              <img src="img/Gzip-Logo.svg" alt="gZip">
+            </div>
+            <div class="compress_list-item">
+              <h3>LZ4</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="encription">
+        <div class="container">
+          <h2>Encription</h2>
+          <p>Copybird uses AES-GCM for Efficient Authenticated Encryption</p>
+          <div class="encription_list">
+            <div class="encription_list-item">
+              <h3>AES-GCM алгоротмы</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="output">
+        <div class="container">
+          <h2>Output</h2>
+          <p>Copybird can deliver encrypted compressed backup to the following destinations:</p>
+          <ul class="output_list">
+            <li class="output_list-item">
+              store the file locally
+            </li>
+            <li class="output_list-item">
+              save it on GCP
+            </li>
+            <li class="output_list-item">
+              save it on S3
+            </li>
+            <li class="output_list-item">
+              send over HTTP
+            </li>
+            <li class="output_list-item">
+              send over SCP
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="notification">
+        <div class="container">
+          <h2>Notification</h2>
+          <ul class="notification_list">
+            <li class="notification_list-item">
+              <h3>Slack</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Telegram</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Kafka</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Nats</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Pushbullet</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>RabbitMQ</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Twilio</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Webcallback</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Create issue in PagerDuty</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>get notificatoin on email</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Amazon SES</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Amazon Simple Queue Service (SQS)</h3>
+            </li>
+            <li class="notification_list-item">
+              <h3>Webcallback</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="kubernetes">
+        <div class="container">
+          <h2>Kubernetes</h2>
+          <p>Run custom K8s controller with Backup custom resources</p>
+        </div>
+      </section>
+
+      <section class="run">
+        <div class="container">
+          <h2>Install & Run</h2>
+          <ul class="run_list">
+            <li>
+              <h4>1. Run as a CLI tool with</h4>
+              <span>go get -u github.com/copybird/copybird</span>
+            </li>
+            <li>
+              <h4>2. Run with Docker</h4>
+              <span>docker run copybird/copybird</span>
+            </li>
+            <li>
+              <h4>3. Use k8s custom controller</h4>
+              <span>kubectl apply -f your-backup-manifest.yaml</span>
+            </li>
+            </li>
+        </div>
+      </section>
+    </main>
+
+  </body>
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/base.min.css">
+  <!--endbuild-->
+  <link rel="stylesheet" href="css/styles/index.min.css">
+  <!--build:js js/scripts.min.js-->
+  <script src="js/script.min.js"></script>
+  <!--endbuild-->
+  <!-- Global site tag (gtag.js) - Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83208754-6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-83208754-6');
+  </script>
+</html>
