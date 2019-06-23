@@ -22,23 +22,25 @@
     <meta property="og:description" content="Description">
     <meta property="og:image" content="https://site.com/img/path/..">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
   </head>
   <body>
 
     <header class="main-header">
       <div class="container">
         <div class="main-header_menu">
-          <div class="logo">
-            <img src="img/database.svg" alt="Copybird">
-            <span>Copybird</span>
-          </div>
+          <a href="/" class="logo">
+            <img src="img/Logo.svg" alt="Copybird">
+            <!-- <span>Copybird</span> -->
+          </a>
           <nav>
             <a href="#">Databases</a>
             <a href="#">Compression</a>
             <a href="#">Encryption</a>
             <a href="#">Output</a>
             <a href="#">Notifications</a>
-            <a href="#" class="forkme">Fork me</a>
+            <a href="https://github.com/copybird/copybird" target="_blank" class="forkme">Fork me</a>
           </nav>
         </div>
         <div class="main-header_info">
@@ -81,40 +83,53 @@
             <h2 class="sec-title">Select Database</h2>
             <!-- <p>Currently Copybird supports the following databases:</p> -->
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ab, quod minima ratione assumenda ad, sed fugiat fuga consectetur, maiores nam accusamus iusto dolore. Dolor ea delectus maxime consequatur saepe.</p>
-            <!-- <div class="section_list">
-              <div class="section_list-item">
-                <img src="img/postgresql.svg" alt="Postgres">
-              </div>
-              <div class="section_list-item">
-                <img src="img/mysql.svg" alt="Mysql">
-              </div>
-              <div class="section_list-item">
-                <img src="img/Mongodb.svg" alt="MongoDB">
-              </div>
-            </div> -->
           </div>
           <div class="section_logo">
             <img src="img/database-color.svg" alt="">
           </div>
-          <div class="section_list">
-            <div class="section_list-item">
-              <img src="img/postgresql.svg" alt="Postgres">
-              <h5>Postgres</h5>
+          <div id="database-slider" class="database_slider">
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/postgresql.svg" alt="Postgres">
+                <h5>Postgres</h5>
+              </div>
             </div>
-            <div class="section_list-item">
-              <img src="img/mysql.svg" alt="Mysql">
-              <h5>Mysql</h5>
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/mysql.svg" alt="Mysql">
+                <h5>Mysql</h5>
+              </div>
             </div>
-            <div class="section_list-item">
-              <img src="img/Mongodb.svg" alt="MongoDB">
-              <h5>MongoDB</h5>
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/Mongodb.svg" alt="MongoDB">
+                <h5>MongoDB</h5>
+              </div>
+            </div>
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/postgresql.svg" alt="Postgres">
+                <h5>Postgres</h5>
+              </div>
+            </div>
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/mysql.svg" alt="Mysql">
+                <h5>Mysql</h5>
+              </div>
+            </div>
+            <div class="database_slider-item">
+              <div class="database_slider-item_content">
+                <img src="img/Mongodb.svg" alt="MongoDB">
+                <h5>MongoDB</h5>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section section-color">
-        <div class="container">
+      <section class="section">
+        <div class="container section-color">
           <div class="section_step">2.</div>
           <div class="section_info">
             <h2 class="sec-title">Compression</h2>
@@ -154,8 +169,8 @@
         </div>
       </section>
 
-      <section class="section section-color">
-        <div class="container">
+      <section class="section">
+        <div class="container section-color">
           <div class="section_step">4.</div>
           <div class="section_info">
             <h2 class="sec-title">Output</h2>
@@ -232,8 +247,8 @@
         </div>
       </section>
 
-      <section class="section section-color">
-        <div class="container">
+      <section class="section">
+        <div class="container section-color">
           <h2 class="sec-title">Kubernetes</h2>
           <p>Run custom K8s controller with Backup custom resources</p>
         </div>
@@ -265,6 +280,8 @@
   <link rel="stylesheet" href="css/base.min.css">
   <!--endbuild-->
   <link rel="stylesheet" href="css/styles/index.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <!--build:js js/scripts.min.js-->
   <script src="js/script.min.js"></script>
   <!--endbuild-->
