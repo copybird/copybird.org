@@ -190,6 +190,10 @@
     }
 }
 
+.database {
+    padding-bottom: 0;
+}
+
 .database_slider {
     width: 600px;
     margin: 0 auto;
@@ -207,6 +211,14 @@
                 height: 70px;
             }
         }
+    }
+    .slick-arrow::before {
+        content: '←';
+        color: $accent-color;
+    }
+
+    .slick-next::before {
+        content: '→';
     }
 }
 

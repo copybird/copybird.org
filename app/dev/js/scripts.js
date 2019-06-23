@@ -4,7 +4,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         autoplay: true,
         dots: true,
-        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-        nextArrow: '<button type="button" class="slick-prev">Previous</button>'
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>'
     });
 });
