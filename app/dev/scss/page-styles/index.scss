@@ -1,6 +1,5 @@
 @import "../vars";
 @import "../grid"; // uncomment if using grid
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 
 /////////////////////////Custom Style////////////////////////
 .main-header {
@@ -25,15 +24,13 @@
             display: flex;
             align-items: center;
             img {
-                height: 85px;
+                height: 50px;
                 width: auto;
-                margin-right: 5px;
+                margin-top: -10px;
             }
             span {
                 color: $text-color--white;
                 font-size: 22px;
-                font-family: 'Source Sans Pro',
-                sans-serif;
                 font-weight: 900;
             }
         }
@@ -44,8 +41,6 @@
                 font-size: 18px;
                 text-decoration: none;
                 margin-left: 20px;
-                font-family: 'Source Sans Pro',
-                sans-serif;
                 font-weight: 600;
             }
 
@@ -70,7 +65,6 @@
             font-size: 36px;
             line-height: 1.5;
             color: $text-color--white;
-            font-family: 'Source Sans Pro', sans-serif;
             font-weight: 700;
         }
     }
@@ -83,7 +77,6 @@
         list-style-type: decimal;
         li {
             color: $text-color--white;
-            font-family: 'Source Sans Pro', sans-serif;
             font-weight: 400;
             font-style: italic;
         }
@@ -102,7 +95,7 @@
 
             img {
                 width: 60px;
-                opacity: .2;
+                opacity: .15;
             }
 
             &:last-child {
@@ -124,8 +117,6 @@
 
 .section {
     padding: 50px 0;
-    font-family: 'Source Sans Pro',
-    sans-serif;
     .container {
         display: flex;
         align-items: center;
@@ -183,7 +174,6 @@
         font-weight: bold;
         color: $accent-color;
         opacity: .1;
-        font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
         margin-left: 30px;
         margin-right: 30px;
@@ -206,7 +196,8 @@
     padding-bottom: 0;
 }
 
-.database_slider {
+.database_slider,
+.notification_slider {
     width: 600px;
     margin: 0 auto;
     margin-top: 50px;
@@ -247,6 +238,13 @@
     }
 }
 
+.notification {
+    .section_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 .kubernetes {
     .container {
         display: flex;
@@ -264,9 +262,9 @@
 .run {
     &_list {
         li {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             h4 {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
             span {
                 background-color: $accent-color;
