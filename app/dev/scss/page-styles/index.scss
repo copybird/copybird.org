@@ -247,6 +247,20 @@
     }
 }
 
+.kubernetes {
+    .container {
+        display: flex;
+        img {
+            width: 200px;
+        }
+        p {
+            margin: 0 auto;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+}
+
 .run {
     &_list {
         li {
