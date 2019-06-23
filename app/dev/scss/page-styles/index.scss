@@ -338,11 +338,24 @@
 }
 
 .fork {
-    a {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    h2 {
+        display: flex;
+        align-items: center;
+        img {
+            display: block;
+            height: 50px;
+            margin-right: 30px;
+        }
+    }
+    .forkme {
         background-color: $bgcolor--white;
         border-radius: $default-border-radius;
         color: $accent-color;
-        padding: 6px 10px 8px;
+        padding: 10px 30px 12px;
         font-size: 18px;
         text-decoration: none;
         font-weight: bold;
