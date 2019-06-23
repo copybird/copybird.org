@@ -14,6 +14,7 @@
     h1 {
         color: $text-color--white;
         font-size: 52px;
+        font-family: 'SailecBold';
     }
 
     p {
@@ -120,30 +121,59 @@
 }
 
 .section {
-    padding: 80px 0;
+    padding: 50px 0;
     .container {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
+        position: relative;
     }
     &_logo {
-        margin-right: 50px;
+        margin-left: auto;
         img {
             height: 150px;
+        }
+    }
+    &_info {
+        p {
+            max-width: 500px;
+        }
+        ul {
+            max-width: 500px;
+            display: flex;
+            flex-wrap: wrap;
         }
     }
     &_list {
         width: 100%;
         display: flex;
         justify-content: flex-start;
+        margin-top: 30px;
 
         &-item {
-            margin-right: 20px;
+            margin-right: 50px;
             img {
                 width: 40px;
                 height: auto;
             }
         }
+    }
+    &_step {
+        font-size: 150px;
+        font-weight: bold;
+        color: $accent-color;
+        opacity: .1;
+        font-family: serif;
+        margin-right: 50px;
+    }
+}
+
+.section-color {
+    background: linear-gradient(90deg, rgba(106, 72, 161, 1) 0%, rgba(94, 80, 180, 1) 100%);
+    color: $text-color--white;
+    .section_step {
+        color: $text-color--white;
+        // opacity: .4;
     }
 }
 
