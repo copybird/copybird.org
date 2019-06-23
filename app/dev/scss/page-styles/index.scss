@@ -374,6 +374,20 @@
     }
 }
 
+footer {
+    background: linear-gradient(90deg, rgba(106, 72, 161, 1) 0%, rgba(94, 80, 180, 1) 100%);
+    padding: 20px 0;
+
+    p {
+        width: 100%;
+        text-align: center;
+        color: $text-color--white;
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
 ///////////////////////////END custom style//////////////////
 
 @import "../media"; // Always at the end
