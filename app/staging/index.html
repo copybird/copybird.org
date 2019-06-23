@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <title>Combine</title>
+    <title>Copybird</title>
     <meta content="Denisoed" name="author"/>
     <meta content="Start template" name="description"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -26,11 +26,31 @@
 
     <header class="main-header">
       <div class="container">
-        <div class="main-header_title">
-          <img src="img/database.svg" alt="Copybird">
-          <h1>Copybird</h1>
+        <div class="main-header_menu">
+          <div class="logo">
+            <img src="img/database.svg" alt="Copybird">
+            <span>Copybird</span>
+          </div>
+          <nav>
+            <a href="#">Databases</a>
+            <a href="#">Compression</a>
+            <a href="#">Encryption</a>
+            <a href="#">Output</a>
+            <a href="#">Notifications</a>
+            <a href="#" class="forkme">Fork me</a>
+          </nav>
         </div>
-        <p>Copybird is open-source cloud-native universal backup tool for databases and files.</p>
+        <div class="main-header_info">
+          <h1>Copybird is open-source cloud-native universal backup tool for databases and files.</h1>
+        </div>
+        <ul>
+          <li>Create database backup</li>
+          <li>Compress backup file</li>
+          <li>Encrypt backup file</li>
+          <li>Send it to various destinations fast and secure</li>
+          <li>Get notification about backup status in messagers and notification services</li>
+          <li>Enjoy simple backup as a service with k8s backup controller</li>
+        </ul>
         <div class="main-header_steps">
           <div class="main-header_steps-step">
             <img src="img/database.svg" alt="Step1">
@@ -48,21 +68,14 @@
             <img src="img/notifications.svg" alt="Step5">
           </div>
         </div>
-        <ul>
-          <li>1. Create database backup</li>
-          <li>2. Compress backup file</li>
-          <li>3. Encrypt backup file</li>
-          <li>4. Send it to various destinations fast and secure</li>
-          <li>5. Get notification about backup status in messagers and notification services</li>
-          <li>6. Enjoy simple backup as a service with k8s backup controller</li>
-        </ul>
+        <img src="img/backup.png" class="backup-bg" alt="Backup">
       </div>
     </header>
 
     <main>
       <section class="databases">
         <div class="container">
-          <h2>Select Database</h2>
+          <h2 class="sec-title"><span>1.</span> Select Database</h2>
           <p>Currently Copybird supports the following databases:</p>
           <div class="databases_list">
             <div class="databases_list-item">
@@ -80,7 +93,7 @@
 
       <section class="compress">
         <div class="container">
-          <h2>Compression</h2>
+          <h2 class="sec-title"><span>2.</span> Compression</h2>
           <p>Copybird compresses with the following tools:</p>
           <div class="compress_list">
             <div class="compress_list-item">
@@ -95,7 +108,7 @@
 
       <section class="encription">
         <div class="container">
-          <h2>Encription</h2>
+          <h2 class="sec-title"><span>3.</span> Encryption</h2>
           <p>Copybird uses AES-GCM for Efficient Authenticated Encryption</p>
           <div class="encription_list">
             <div class="encription_list-item">
@@ -107,7 +120,7 @@
 
       <section class="output">
         <div class="container">
-          <h2>Output</h2>
+          <h2 class="sec-title"><span>4.</span> Output</h2>
           <p>Copybird can deliver encrypted compressed backup to the following destinations:</p>
           <ul class="output_list">
             <li class="output_list-item">
@@ -131,7 +144,7 @@
 
       <section class="notification">
         <div class="container">
-          <h2>Notification</h2>
+          <h2 class="sec-title"><span>5.</span> Notification</h2>
           <ul class="notification_list">
             <li class="notification_list-item">
               <h3>Slack</h3>
@@ -178,14 +191,14 @@
 
       <section class="kubernetes">
         <div class="container">
-          <h2>Kubernetes</h2>
+          <h2 class="sec-title">Kubernetes</h2>
           <p>Run custom K8s controller with Backup custom resources</p>
         </div>
       </section>
 
       <section class="run">
         <div class="container">
-          <h2>Install & Run</h2>
+          <h2 class="sec-title">Install & Run</h2>
           <ul class="run_list">
             <li>
               <h4>1. Run as a CLI tool with</h4>
