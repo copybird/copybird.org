@@ -99,6 +99,7 @@
         position: relative;
         display: flex;
         justify-content: center;
+        align-items: flex-end;
         margin-top: 80px;
         z-index: 1;
 
@@ -107,12 +108,19 @@
 
             img {
                 width: 60px;
-                opacity: .15;
+                opacity: 1;
             }
 
             &:last-child {
                 margin-right: 0;
             }
+        }
+
+        span {
+            color: $text-color--white;
+            font-size: 18px;
+            font-weight: bold;
+            opacity: .1;
         }
     }
 
