@@ -50,7 +50,7 @@
     "inquirer": "^6.0.0",
     "ncp": "^2.0.0",
     "require-dir": "^0.3.1",
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.5"
   },
   "dependencies": {
     "gulp-html-i18n": "^0.14.0",
