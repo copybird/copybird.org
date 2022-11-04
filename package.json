@@ -21,7 +21,7 @@
     "chalk": "^2.4.1",
     "del": "^3.0.0",
     "figlet": "^1.2.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-cache": "^0.4.6",
